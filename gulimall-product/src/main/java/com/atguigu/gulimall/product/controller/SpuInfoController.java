@@ -22,7 +22,7 @@ import com.atguigu.common.utils.R;
  *
  * @author leaf
  * @email lxhu.work@gmail.com
- * @date 2021-05-27 10:32:29
+ * @date 2021-05-30 15:28:38
  */
 @RestController
 @RequestMapping("product/spuinfo")
