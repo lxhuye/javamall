@@ -5,8 +5,18 @@ spring:
     url: jdbc:mysql://192.168.118.3:3306/gulimall_oms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.jdbc.Driver
 
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #设置链接nacos
+  application:
+    name: gulimall-order
+
 #设置主键自增
 mybatis-plus:
   global-config:
     db-config:
       id-type: auto
+  mapper-locations: classpath:/classpath:/mapper/**/*.xml
+server:
+  port: 9000
