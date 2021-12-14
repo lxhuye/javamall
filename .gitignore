@@ -16,3 +16,11 @@ buildNumber.properties
 **/target/
 .idea
 **/.gitignore
+gulimall-member/src/main/.DS_Store
+gulimall-member/src/main/resources/.DS_Store
+gulimall-product/src/main/.DS_Store
+gulimall-product/src/main/java/com/atguigu/.DS_Store
+gulimall-product/src/main/java/com/atguigu/gulimall/.DS_Store
+gulimall-product/src/main/java/com/atguigu/gulimall/product/.DS_Store
+gulimall-ware/src/main/.DS_Store
+gulimall-ware/src/main/resources/.DS_Store
